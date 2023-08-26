@@ -5,10 +5,10 @@ function criaTxt(array, nomeArquivo) {
     fs.writeFileSync(nomeArquivo, cadaLinhaMap.join('\n'))
 }
 
-let numberOne = 30;
-let numberTwo = 45;
-let cnl = 7777;
-let tipoDeLinha = 'basic'
+let numberOne = 1;
+let numberTwo = 10;
+let cnl = 7779;
+let tipoDeLinha = 'DDR'
 
 const array = [];
 for (let index = `${numberOne}`; index <= `${numberTwo}`; index++) {
