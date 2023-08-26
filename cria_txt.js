@@ -5,8 +5,8 @@ function criaTxt(array, nomeArquivo) {
     fs.writeFileSync(nomeArquivo, cadaLinhaMap.join('\n'))
 }
 
-let numberOne = 1;
-let numberTwo = 10;
+let numberOne = 300;
+let numberTwo = 450;
 
 const array = [];
 for (let index = `${numberOne}`; index <= `${numberTwo}`; index++) {
