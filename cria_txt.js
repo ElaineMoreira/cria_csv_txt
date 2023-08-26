@@ -1,7 +1,9 @@
 const fs = require('fs');
 
-function criaTxt() {
+function criaTxt(array, nomeArquivo) {
     
 }
+
+const
 
 criaTxt()
