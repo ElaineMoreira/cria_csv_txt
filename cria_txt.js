@@ -8,7 +8,7 @@ function criaTxt(array, nomeArquivo) {
 let numberOne = 1;
 let numberTwo = 10;
 let cnl = 7779;
-let tipoDeLinha = 'DDR'
+let tipoDeLinha = 'DDR';
 
 const array = [];
 for (let index = `${numberOne}`; index <= `${numberTwo}`; index++) {
