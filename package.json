@@ -1,0 +1,20 @@
+{
+  "name": "cria_csv_txt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElaineMoreira/cria_csv_txt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElaineMoreira/cria_csv_txt/issues"
+  },
+  "homepage": "https://github.com/ElaineMoreira/cria_csv_txt#readme"
+}
