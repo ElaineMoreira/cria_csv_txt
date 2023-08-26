@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ElaineMoreira/cria_csv_txt/issues"
   },
-  "homepage": "https://github.com/ElaineMoreira/cria_csv_txt#readme"
+  "homepage": "https://github.com/ElaineMoreira/cria_csv_txt#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
