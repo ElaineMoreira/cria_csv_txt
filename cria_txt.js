@@ -5,8 +5,8 @@ function criaTxt(array, nomeArquivo) {
     fs.writeFileSync(nomeArquivo, cadaLinhaMap.join('\n'))
 }
 
-let numberOne = 1;
-let numberTwo = 10;
+let numberOne = 10;
+let numberTwo = 100;
 let cnl = 7779;
 let tipoDeLinha = 'DDR';
 
