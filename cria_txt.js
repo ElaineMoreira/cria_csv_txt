@@ -1,10 +1,14 @@
 const fs = require('fs');
 const readline = require('readline-sync');
 
-let numberOne = 10;
-let numberTwo = 30;
-let cnl = 7779;
-let tipoDeLinha = 'DDR';
+//let numberOne = 10;
+//let numberTwo = 30;
+//let cnl = 7779;
+//let tipoDeLinha = 'DDR';
+const numberOne = parseFloat(readline.question('Digite o primeiro número:'))
+const numberTwo = parseFloat(readline.question('Digite o segundo número:'))
+const cnl = parseFloat(readline.question('Digite o CNL:'))
+const tipoDeLinha = readline.question('Digite o tipo de linha, "DDR" ou "basic":')
 
 function criaTxt(array, nomeArquivo) {
     const cadaLinhaMap = array.map(linha => linha.join(','))
