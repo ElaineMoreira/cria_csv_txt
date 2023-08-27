@@ -12,7 +12,7 @@ const tipoDeLinha = readline.question('Digite o tipo de linha, "DDR" ou "basic":
 
 function criaTxt(array, nomeArquivo) {
     const cadaLinhaMap = array.map(linha => linha.join(','))
-    fs.writeFileSync(nomeArquivo, cadaLinhaMap.join('\n'))
+    fs.writeFileSync(nomeArquivo, cadaLinhaMap.join('\n'), 'utf-8')
 }
 
 const array = [];
@@ -20,4 +20,4 @@ for (let index = `${numberOne}`; index <= `${numberTwo}`; index++) {
     array.push([index, `${cnl}`, `${tipoDeLinha}`]);
 }
 
-criaTxt(array, 'arquivo.txt')
+criaTxt(array, 'arquivo.txt', 'utf-8')
